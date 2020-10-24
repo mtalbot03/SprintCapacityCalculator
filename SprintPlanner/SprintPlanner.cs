@@ -89,6 +89,7 @@ namespace SprintPlanner
             staffedCapacity = hoursOfUtilization / workHours;
 
             return lastSprintPointsPerHour * hoursOfUtilization;
+            //test
         }
 
         private static void PrintInfo()
